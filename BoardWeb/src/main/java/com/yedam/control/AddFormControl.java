@@ -16,6 +16,7 @@ public class AddFormControl implements Control {
 		request.setAttribute("msg", "Message");
 		request.getRequestDispatcher("WEB-INF/html/addForm.jsp").forward(request, response);
 		
+		// 커밋테스트 수정
 
 	}
 
